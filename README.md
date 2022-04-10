@@ -31,4 +31,4 @@ The channel corresponding to the average Compton edge returned by the fit functi
 The example below show the energy distribution from one neutron counter fitted with the convolution function</br>
 <center><img width="625" alt="Screen Shot 2022-04-10 at 9 31 35 AM" src="https://user-images.githubusercontent.com/27436642/162620607-6d1df287-48bb-4aa8-8e56-4c2e1a53a1c0.png"></center>
 
-This is a simple C code which just need ROOT int to produce the results.
+This is a simple C code which just needs ROOT CINT to produce the results.
