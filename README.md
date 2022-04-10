@@ -11,10 +11,10 @@ The Compton scattering wavelength ∆λ is given by, </br>
 where me is the mass of the electron and θ is the angle by which the incident gamma ray scatters. 
 At the maximum scattering angle θ = 180°, the energy difference carried away by the scattered electron is its maximum kinetic energy ECompton given by the equation,</br>
 <img width="194" alt="Screen Shot 2022-04-10 at 8 58 24 AM" src="https://user-images.githubusercontent.com/27436642/162619332-d0760055-92a9-4ea3-bd3d-76357e6769de.png"></br>
-The radioactive sources used during the experiment for calibration runs were 60Co and 137Cs. 60Co is an unstable isotope of Cobalt with a half life of
-about 5.27 years which undergoes a beta decay to an excited state of 60Ni, which in turn emits gamma rays with energies 1.17 and 1.33 MeV respectively. 
+The radioactive sources used during the experiment for calibration runs were <sup>60</sup>Co and <sup>137</sup>Cs. <sup>60</sup>Co is an unstable isotope of Cobalt with a half life of
+about 5.27 years which undergoes a beta decay to an excited state of <sup>60</sup>Ni, which in turn emits gamma rays with energies 1.17 and 1.33 MeV respectively. 
 Since these spectral lines are in close proximity we took the average of these to be an equivalent spectral line emitted by this source, yielding an of 
-energy 1.25 MeV. 137Cs undergoes a beta decay to 137Ba which emits a distinct photo peak of 662 keV.
+energy 1.25 MeV. <sup>137</sup>Cs undergoes a beta decay to <sup>137</sup>Ba which emits a distinct photo peak of 662 keV.
 
 ## Klein Nishina Formula
 Klein Nishina formula gives the expression for differential scattering cross section of photons scattered by single electron corresponding to the lowest 
