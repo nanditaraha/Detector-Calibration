@@ -25,7 +25,7 @@ expected it to give accurate results. The energy distribution of the differentia
 The convolution is done numerically using C++ and ROOT using this code. 
 A Gaussian function of suitable width w, denoted by G(w) was superimposed, shifted by a bin over the Klein Nishina formula denoted by 
 K (i.e. Eq.(5.12)) and finally integrated over the entire range of interest from E1 to E2. This procedure is illustrated by the equation,</br>
-<img width="237" alt="Screen Shot 2022-04-10 at 9 24 10 AM" src="https://user-images.githubusercontent.com/27436642/162620323-8c244be9-75d8-4617-91aa-93ffab9de625.png"></br>
+<img width="187" alt="Screen Shot 2022-04-10 at 9 24 10 AM" src="https://user-images.githubusercontent.com/27436642/162620323-8c244be9-75d8-4617-91aa-93ffab9de625.png"></br>
 
 The channel corresponding to the average Compton edge returned by the fit function was used as the final calibration gain from the two source.
 The example below show the energy distribution from one neutron counter fitted with the convolution function</br>
