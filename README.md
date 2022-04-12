@@ -29,7 +29,7 @@ K (i.e. Eq.(5.12)) and finally integrated over the entire range of interest from
 
 The channel corresponding to the average Compton edge returned by the fit function was used as the final calibration gain from the two source.
 The example below show the energy distribution from one neutron counter fitted with the convolution function</br>
-<p align="center"><img width="525" alt="Screen Shot 2022-04-10 at 9 31 35 AM" src="https://user-images.githubusercontent.com/27436642/162620607-6d1df287-48bb-4aa8-8e56-4c2e1a53a1c0.png"></p>
+<p align="center"><img width="528" alt="Screen Shot 2022-04-12 at 2 26 23 PM" src="https://user-images.githubusercontent.com/27436642/163029064-e43a2a20-32c9-4f37-a721-56b4682207a0.png"></p>
 
 ------------------------------------------------------------------------------------------------------------------------
 
