@@ -1,9 +1,9 @@
-# Energy Calibration of Neutron Detectors
+## Energy Calibration of Neutron Detectors - convolution of Klein Nishina Formula and Gaussian.
 This code calibrates the neutron detectors used for the Musun experiment.</br>
 Neutron detectors see a lot gamma rays due to muon decay. Thus a convolution of Compton scattering and Klein Nishina formula is suitable used for 
 calibrating the detectors. 
 
-## Compton scattering
+### Compton scattering
 Gamma ray sources undergo Compton scattering and so they were used for the energy calibration of the neutron detectors. The specific energy of the 
 Compton edge of the gamma ray, due to Compton scattering was compared with the number of channels read by the neutron counter corresponding to that energy.
 The Compton scattering wavelength ∆λ is given by, </br>
@@ -16,12 +16,12 @@ about 5.27 years which undergoes a beta decay to an excited state of <sup>60</su
 Since these spectral lines are in close proximity we took the average of these to be an equivalent spectral line emitted by this source, yielding an of 
 energy 1.25 MeV. <sup>137</sup>Cs undergoes a beta decay to <sup>137</sup>Ba which emits a distinct photo peak of 662 keV.
 
-## Klein Nishina Formula
+### Klein Nishina Formula
 Klein Nishina formula gives the expression for differential scattering cross section of photons scattered by single electron corresponding to the lowest 
 order of quantum electrodynamics.</br> This also considered the details of relativistic quantum mechanical effect in the high energy regime and so we 
 expected it to give accurate results. The energy distribution of the differential cross section is given by,</br>
 <img width="455" alt="Screen Shot 2022-04-10 at 9 22 48 AM" src="https://user-images.githubusercontent.com/27436642/162620258-f78c0e8f-a82a-4a7f-8c84-860b493a9816.png"></br>
-## Fit function
+#### Fit function
 The convolution is done numerically using C++ and ROOT using this code. 
 A Gaussian function of suitable width w, denoted by G(w) was superimposed, shifted by a bin over the Klein Nishina formula denoted by 
 K (i.e. Eq.(5.12)) and finally integrated over the entire range of interest from E1 to E2. This procedure is illustrated by the equation,</br>
