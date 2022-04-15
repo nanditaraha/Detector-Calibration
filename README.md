@@ -1,4 +1,4 @@
-## Energy Calibration of Neutron Detectors - convolution of Klein Nishina Formula and Gaussian.
+## Energy Calibration of Neutron Detectors - convolution of Klein Nishina Formula with a Gaussian.
 This code calibrates the neutron detectors used for the Musun experiment.</br>
 Neutron detectors see a lot gamma rays due to muon decay. Thus a convolution of Compton scattering and Klein Nishina formula is suitable used for 
 calibrating the detectors. 
